@@ -14,18 +14,19 @@ body{
 
 h1{
     font-size: 2.25rem;
-    font-family: 600;
+    font-weight: 600;
     margin-bottom: 16px;
 
 }
 h2{
     font-size: 1.5rem;
     font-weight: 600;
+    margin-bottom: 32px;
 }
 p, 
 li{
 font-size: 1rem;
-font-family: 400;
+font-weight: 400;
 }
 
 header{
@@ -33,6 +34,45 @@ header{
     text-align: center;
 
 }
-.faq-header{
+main{
+ padding: 72px 24px;
+ background-color: #F8FAFC ;
+}
+
+.faq-container{
+    width: 640px;
     margin: 0 auto;
+}
+
+ol, ul{
+    margin: 32px 0;
+    padding-left: 16px;
+}
+li{
+    line-height: 32px;
+}
+
+hr{
+    margin: 40px 0;
+}
+
+
+/* ===========================
+        Responsive Design
+=============================== */
+
+
+
+/* ---------------- Tablet (641px – 1024px) ---------------- */
+@media (min-width: 641px) and (max-width: 1024px) {
+  
+  
+}
+
+
+/* ---------------- Mobile (≤640px) ---------------- */
+@media (max-width: 640px) {
+    header{
+        padding: 72px 0;
+    }
 }
