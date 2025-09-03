@@ -5,7 +5,8 @@
 }
 
 body{
-
+    height: 100vh;
+    width: 100%;
     font-family: "Inter", sans-serif;
 
 }
@@ -72,6 +73,7 @@ hr{
 
 /* ---------------- Mobile (≤640px) ---------------- */
 @media (max-width: 640px) {
+    body
     header{
         padding: 72px 0;
     }
@@ -79,6 +81,7 @@ hr{
         padding: 72px 12px;
     }
     .faq-container{
+        
         padding: 0 24px;
     
 }
