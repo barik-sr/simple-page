@@ -45,7 +45,7 @@ main{
 }
 
 ol, ul{
-    margin: 32px 0;
+    margin: 24px 0;
     padding-left: 16px;
 }
 li{
@@ -75,4 +75,11 @@ hr{
     header{
         padding: 72px 0;
     }
+    main{
+        padding: 72px 12px;
+    }
+    .faq-container{
+        padding: 0 24px;
+    
+}
 }
